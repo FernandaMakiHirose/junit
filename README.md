@@ -29,6 +29,14 @@ O nome da extensão é `Java Extension Pack`, com ela é possível ver os testes
 `@Test`:  Mostra que um método é de teste. É uma annotation, pois vem acima do método e é inicializada com @.
 `@Disabled`: Não executa o teste que essa annotation foi declarada.
 `@BeforeAll`: Define um código que vai ser executado antes dos testes (exemplo, instanciar objetos).
+`@BeforeEach`: Roda o código antes de cada teste.
+`@AfterEach`: Roda depois de cada teste.
+`@AfterAll`: É executado apenas 1 vez, é executado por último.
+`@DisplayName();`: Adiciona um nome para o teste.
 `fail();`: Usado em condicionais para mostrar uma mensagem de falha.
 `mvn clean compile test`: É um comando para executar no terminal, onde mostra todos os testes.
 `assertEquals();`: Recebe um valor esperado e um valor objeto, depois checa se eles são iguais, se forem iguais não faz nada, se não forem dispara uma exceção.
+
+## Dicas
+- Se o método tem mais de 10 linhas, reveja.
+- Se o método tem mais de 20 linhas, refatore.
