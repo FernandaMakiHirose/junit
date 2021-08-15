@@ -13,3 +13,22 @@
 - TestNG (concorrente do JUnit, mais básico).
 - e-FATHREE (framework da Everis, mais avançado).
 - Selenium (abstrai o acesso ao navegador para realizar automações web).
+- Obs: é possível usar mais de um framework nos seus testes.
+
+## Principais benefícios de utilizar um framework
+- Maios eficiência.
+- Maior velocidade na criação dos testes.
+- Menor custo de manutenção.
+- Maior cobertura de testes.
+- Reutilização do código.
+
+## Extensão para o Visual Studio Code
+O nome da extensão é `Java Extension Pack`, com ela é possível ver os testes que passaram e falharam.
+
+## Boas práticas que aprendi com JUnit
+`@Test`:  Mostra que um método é de teste. É uma annotation, pois vem acima do método e é inicializada com @.
+`@Disabled`: Não executa o teste que essa annotation foi declarada.
+`@BeforeAll`: Define um código que vai ser executado antes dos testes (exemplo, instanciar objetos).
+`fail();`: Usado em condicionais para mostrar uma mensagem de falha.
+`mvn clean compile test`: É um comando para executar no terminal, onde mostra todos os testes.
+`assertEquals();`: Recebe um valor esperado e um valor objeto, depois checa se eles são iguais, se forem iguais não faz nada, se não forem dispara uma exceção.
