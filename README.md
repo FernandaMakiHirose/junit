@@ -9,6 +9,9 @@
 - Ferramenta que permite acelerar, facilitar ou organizar o processo de testes, normalmente no contexto de automatização. 
 - Conjunto de regras ou diretrizes utilizadas para definir um processo de trabalho de testes.
 
+## Como executar os testes?
+>mvn clean compile test
+
 ## Exemplos de frameworks de testes
 - JUnit (mais básico).
 - TestNG (concorrente do JUnit, mais básico).
@@ -38,7 +41,6 @@ O nome da extensão é `Java Extension Pack`, com ela é possível ver os testes
 `@CsvSource({})`: Indica que o parâmetro é do tipo csv. <br>
 `@CsvFileSource(resources = "/data.csv", numLinesToSkip = 1)`: Indica que o arquivo é do tipo csv. Passou o path do arquivo e as linhas para pular. <br>
 `fail();`: Usado em condicionais para mostrar uma mensagem de falha. <br>
-`mvn clean compile test`: É um comando para executar no terminal, onde mostra todos os testes. <br>
 `assertEquals();`: Recebe um valor esperado e um valor objeto, depois checa se eles são iguais, se forem iguais não faz nada, se não forem dispara uma exceção.
 
 ## Dicas
