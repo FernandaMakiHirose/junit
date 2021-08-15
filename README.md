@@ -27,15 +27,18 @@
 O nome da extensão é `Java Extension Pack`, com ela é possível ver os testes que passaram e falharam.
 
 ## Boas práticas que aprendi com JUnit
-`@Test`:  Mostra que um método é de teste. É uma annotation, pois vem acima do método e é inicializada com @.
-`@Disabled`: Não executa o teste que essa annotation foi declarada.
-`@BeforeAll`: Define um código que vai ser executado antes dos testes (exemplo, instanciar objetos).
-`@BeforeEach`: Roda o código antes de cada teste.
-`@AfterEach`: Roda depois de cada teste.
-`@AfterAll`: É executado apenas 1 vez, é executado por último.
-`@DisplayName();`: Adiciona um nome para o teste.
-`fail();`: Usado em condicionais para mostrar uma mensagem de falha.
-`mvn clean compile test`: É um comando para executar no terminal, onde mostra todos os testes.
+`@Test`:  Mostra que um método é de teste. É uma annotation, pois vem acima do método e é inicializada com @. <br>
+`@Disabled`: Não executa o teste que essa annotation foi declarada. <br>
+`@BeforeAll`: Define um código que vai ser executado antes dos testes (exemplo, instanciar objetos). <br>
+`@BeforeEach`: Roda o código antes de cada teste. <br>
+`@AfterEach`: Roda depois de cada teste. <br>
+`@AfterAll`: É executado apenas 1 vez, é executado por último. <br>
+`@DisplayName();`: Adiciona um nome para o teste. <br>
+`@ParameterizedTest`: Diz que o próximo teste recebe parâmetros. <br>
+`@CsvSource({})`: Indica que o parâmetro é do tipo csv. <br>
+`@CsvFileSource(resources = "/data.csv", numLinesToSkip = 1)`: Indica que o arquivo é do tipo csv. Passou o path do arquivo e as linhas para pular. <br>
+`fail();`: Usado em condicionais para mostrar uma mensagem de falha. <br>
+`mvn clean compile test`: É um comando para executar no terminal, onde mostra todos os testes. <br>
 `assertEquals();`: Recebe um valor esperado e um valor objeto, depois checa se eles são iguais, se forem iguais não faz nada, se não forem dispara uma exceção.
 
 ## Dicas
