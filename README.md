@@ -3,6 +3,7 @@
 - Java JDK 8 ou posterior instalado.
 - Maven instalado.
 - Um IDE ou editor de textos avançado (IntelliJ, Eclipse, Visual Studio Code).
+- Obs: O JUnit foi adicionado nas dependências do projeto.
 
 ## O que é um framework de testes?
 - Ferramenta que permite acelerar, facilitar ou organizar o processo de testes, normalmente no contexto de automatização. 
