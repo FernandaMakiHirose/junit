@@ -5,6 +5,9 @@
 - Um IDE ou editor de textos avançado (IntelliJ, Eclipse, Visual Studio Code).
 - Obs: O JUnit foi adicionado nas dependências do projeto.
 
+## Licença
+Distribuido sob a licença MIT License. Veja `LICENSE` para mais informações.
+
 ## O que é um framework de testes?
 - Ferramenta que permite acelerar, facilitar ou organizar o processo de testes, normalmente no contexto de automatização. 
 - Conjunto de regras ou diretrizes utilizadas para definir um processo de trabalho de testes.
